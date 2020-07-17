@@ -12,7 +12,7 @@ lumigo-cli s3-select-batch \
   --region="us-east-1" \
   --bucket="com.brianpfeil.cloudfront.logs" \
   --prefix="brianpfeil.com/E2IL5HY5XTHLNW.2019-09-17-21.66bbda6b.gz" \
-  --expression="SELECT s._1 FROM S3Object s" \
+  --expression="SELECT * FROM S3Object s" \
   --fileType="CSV" \
   --compressionType="GZIP"
 
