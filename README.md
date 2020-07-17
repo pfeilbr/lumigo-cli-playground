@@ -2,10 +2,9 @@
 
 learn [lumigo-CLI](https://github.com/lumigo-io/lumigo-cli), A collection of helpful commands for working with AWS Lambda.
 
-## Examples
+## Example Usage
 
 ```sh
-
 # display contents of gzipped cloudfront log file to stdout
 # see S3 SQL reference @  https://docs.aws.amazon.com/AmazonS3/latest/dev/s3-glacier-select-sql-reference-select.html
 lumigo-cli s3-select-batch \
@@ -18,5 +17,4 @@ lumigo-cli s3-select-batch \
 
 # list Lambda functions in ALL regions
 lumigo-cli list-lambda
-
 ```
